@@ -1,0 +1,41 @@
+.card-main{
+  background-color: azure;
+   width: 100%;
+}
+.Card{
+    margin: auto;
+     margin-top: 10px;
+     width: 50vw;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 50vh;
+    background-position: center;
+    background-size:cover;
+}
+.btn{
+  
+    border-radius: 5px;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.btn:hover{
+    background-color: gray;
+    color:white;
+}
+.buttn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.showbtn{
+    display: inline;
+    background-image: linear-gradient(to right, rgb(131, 77, 77),rgb(110, 110, 142),rgb(122, 122, 82));
+    
+    border: none;
+    text-transform: capitalize;
+}
